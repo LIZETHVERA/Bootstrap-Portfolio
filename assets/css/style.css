@@ -7,7 +7,6 @@
     
 }
 
-
 .navbar-brand{
     width: 240px;
     height: 90px;
@@ -74,17 +73,32 @@ body {
     margin: 10px 10px 0 0;
     padding: 0 20px 0 0px;
       
-  }
+}
   
 /* I put this to have space between the footer and the main content. */
 #main_container {
     padding: 0 0 80px 0;
    
   }
+/* Contact! */
+
+button[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  } 
 
 /* Porfolio css */
 
 /* to put the names of the pictures with style */
+
+img {
+    padding-bottom: 5px;
+}
+
 .caption h3 {
     position: absolute;
     bottom: 20px;
