@@ -99,26 +99,41 @@ img {
     padding-bottom: 5px;
 }
 
-.caption h3 {
-    position: absolute;
+.image-portfolio {
+    position: relative;
     bottom: 20px;
-    width: 90%;
-    padding: 15px 0 15px 0;
-    margin-bottom: 0;
-    font-weight: 300;
+    /* width: 100%; */
+    max-width: 400px;
+    /* margin: auto;
+    padding: 15px 0 15px 0; */
+    margin-bottom: 15px;;
+    /* font-weight: 300;
     line-height: 30px;
     color: #ffffff;
     background: #4aaaa5;
-    border-bottom: 0;
+    border-bottom: 0; */
 }
 
-.caption img {
+.image-portfolio img {
     width: 100%;
-    border: 0 none;
+    max-width: 400px;
+    /* border: 0 none;
     opacity: 0.8;
     margin-bottom: 20px;
     margin-top: 20px;
-    overflow: auto;
+    overflow: auto; */
+   
+}
+
+h3 {
+    position: absolute;
+    bottom: 0;
+    background: #4aaaa5;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
 }
 
 
@@ -134,4 +149,6 @@ img {
     margin-bottom: 20px;
 }
 
-
+h3:hover {
+    background-color: grey;
+}
